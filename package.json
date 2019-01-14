@@ -1,0 +1,25 @@
+{
+  "name": "debatnational",
+  "version": "1.0.0",
+  "description": "Le VRAI de VRAI débat national",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react-redux": "6.0.6",
+    "fuse-box": "3.4.0",
+    "node-sass": "4.9.3",
+    "typescript": "3.0.1"
+  },
+  "dependencies": {
+    "@types/react-router": "^4.4.3",
+    "react": "16.4.2",
+    "react-dom": "^16.4.2",
+    "react-pure-lifecycle": "3.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  }
+}
