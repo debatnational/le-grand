@@ -16,7 +16,7 @@ body {
   background-color: #fff;
   background-size: 200px;
   height: 70px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 
 .main-content {
@@ -80,15 +80,24 @@ button {
   text-decoration: none;
   transition: all 500ms ease;
   cursor: pointer;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
   &:hover {
     background: #ccc;
     color: #052e48;
   }
-  &.right {
-    float: right;
-  }
-  &.left {
-    float: left;
+}
+
+@media screen and (min-width: 800px) {
+  a,
+  button {
+    &.right {
+      float: right;
+    }
+    &.left {
+      float: left;
+    }
   }
 }
 

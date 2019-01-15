@@ -2,8 +2,8 @@ import * as React from "react";
 
 export const Debate = ({ debate }) => (
   <div>
-    {debate.map(message => (
-      <div className="message">
+    {debate.map((message, i) => (
+      <div className="message" key={i}>
         <div>
           <strong>{message.author}</strong>
         </div>
